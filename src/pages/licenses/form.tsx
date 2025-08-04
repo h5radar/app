@@ -79,9 +79,9 @@ export const LicenseForm: React.FC<LicenseFormProps> = ({ defaultDataForm, onSub
             <FormItem>
               <FormLabel>Description</FormLabel>
               <FormControl>
-                <Textarea id="description" placeholder="descripton" {...field} />
+                <Textarea id="description" placeholder="description" {...field} />
               </FormControl>
-              <FormDescription>This is license descripton</FormDescription>
+              <FormDescription>This is license description</FormDescription>
               <FormMessage />
             </FormItem>
           )}
